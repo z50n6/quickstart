@@ -3,21 +3,21 @@
     {
       "name": "BurpSuite2023",
       "path": "E:/Penetration/RedTeam/TrafficProxyTools/burpsuite/burpsuite_pro/BurpSuiteLoader.vbs",
-      "category": "流量代理/抓包工具",
       "tool_type": "vbs",
       "description": "渗透利器",
       "icon_path": "E:/Penetration/RedTeam/TrafficProxyTools/burpsuite/burpsuite_pro/BurpSuite.ico",
-      "launch_count": 46,
-      "last_launch": "2025-07-17T10:39:49.609493",
+      "category": "流量代理/抓包工具",
+      "launch_count": 48,
+      "last_launch": "2025-07-18T17:54:17",
       "args": ""
     },
     {
       "name": "Befree",
       "path": "E:/Penetration/ProxyTools/Befree/befree.bat",
-      "category": "流量代理/代理逃逸",
       "tool_type": "batch",
       "description": "",
       "icon_path": "E:/Penetration/ProxyTools/Befree/befree.ico",
+      "category": "流量代理/代理逃逸",
       "launch_count": 37,
       "last_launch": "2025-07-17T09:20:00.000000",
       "args": ""
@@ -25,10 +25,10 @@
     {
       "name": "yakit",
       "path": "E:/Penetration/ProxyTools/yakit/yakit.exe",
-      "category": "流量代理/抓包工具",
       "tool_type": "exe",
       "description": "常用利器",
       "icon_path": "E:/Penetration/ProxyTools/yakit/yakit.ico",
+      "category": "流量代理/抓包工具",
       "launch_count": 25,
       "last_launch": "2025-07-16T15:00:00.000000",
       "args": ""
@@ -36,10 +36,10 @@
     {
       "name": "冰蝎_v4.1.100ls",
       "path": "E:/Penetration/WebShell/Behinder/Behinder.jar",
-      "category": "WebShell管理器",
       "tool_type": "java11_gui",
       "description": "",
       "icon_path": "E:/Penetration/WebShell/Behinder/Behinder.ico",
+      "category": "WebShell管理器",
       "launch_count": 13,
       "last_launch": "2025-07-15T18:00:00.000000",
       "args": ""
@@ -47,10 +47,10 @@
     {
       "name": "DeepSeekSelfTool",
       "path": "E:/Penetration/RedTeam/DeepSeekSelfTool/DeepSeekSelfTool.py",
-      "category": "RedTeam/综合工具",
       "tool_type": "python",
       "description": "py GUI",
       "icon_path": "E:/Penetration/RedTeam/DeepSeekSelfTool/DeepSeekSelfTool.ico",
+      "category": "RedTeam/综合工具",
       "launch_count": 12,
       "last_launch": "2025-07-14T10:00:00.000000",
       "args": ""
@@ -58,10 +58,10 @@
     {
       "name": "burpsuite2025",
       "path": "E:/Penetration/RedTeam/TrafficProxyTools/burpsuite/burpsuite_pro/BurpSuiteLoader.vbs",
-      "category": "流量代理/抓包工具",
       "tool_type": "vbs",
       "description": "",
       "icon_path": "E:/Penetration/RedTeam/TrafficProxyTools/burpsuite/burpsuite_pro/BurpSuite.ico",
+      "category": "流量代理/抓包工具",
       "launch_count": 12,
       "last_launch": "2025-07-13T09:00:00.000000",
       "args": ""
@@ -69,13 +69,13 @@
     {
       "name": "哥斯拉",
       "path": "E:/Penetration/WebShell/Godzilla/Godzilla.jar",
-      "category": "WebShell管理器",
       "tool_type": "java8_gui",
       "description": "",
       "icon_path": "E:/Penetration/WebShell/Godzilla/Godzilla.ico",
+      "category": "WebShell管理器",
       "launch_count": 11,
       "last_launch": "2025-07-12T08:00:00.000000",
       "args": ""
     }
   ]
-} 
+}

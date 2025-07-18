@@ -379,7 +379,9 @@ class QuickStartMainWindow(QMainWindow):
         total = len(self.tools)
         found = len(self.filtered_tools)
         self.search_stats.setText(f"找到 {found} 个工具(共 {total} 个)")
+
     def launch_tool(self, tool, dependency_check=True):
+        import datetime
         def run():
             import shutil
             import os, sys, subprocess
@@ -400,6 +402,10 @@ class QuickStartMainWindow(QMainWindow):
                     return config_path
                 return shutil.which('java')
             try:
+                # 启动前计数+1，更新时间，保存
+                tool.launch_count += 1
+                tool.last_launch = datetime.datetime.now().isoformat(timespec='seconds')
+                self.save_tools()
                 if tool.tool_type == "folder":
                     if os.path.isdir(tool.path):
                         QDesktopServices.openUrl(QUrl.fromLocalFile(tool.path))
@@ -657,6 +663,8 @@ class QuickStartMainWindow(QMainWindow):
         else:
             prefix = '/'.join(path)
             self.filtered_tools = [t for t in self.tools if t.category.startswith(prefix)]
+        # 分类点击后也按启动次数排序
+        self.filtered_tools = sorted(self.filtered_tools, key=lambda t: t.launch_count, reverse=True)
         self.show_tools()
 
     def keyPressEvent(self, event):
