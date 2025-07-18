@@ -11,7 +11,7 @@ from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.QtGui import QDesktopServices
 from PyQt5.QtCore import QUrl
 
-CONFIG_PATH = os.path.join(os.path.dirname(__file__), '../config.json')
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config.json')
 
 # 工具数据结构
 class Tool:
